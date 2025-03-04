@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vision 2050 - Holy Fatima Group of Schools</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        header {
+            background-color: #2c3e50;
+            color: white;
+            padding: 1rem;
+            position: fixed;
+            width: 100%;
+            top: 0;
+            z-index: 100;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .logo {
+            font-size: 1.5rem;
+            font-weight: bold;
+        }
+
+        .nav-links {
+            list-style: none;
+            display: flex;
+            gap: 2rem;
+        }
+
+        .nav-links a {
+            color: white;
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+
+        .nav-links a:hover {
+            color: #3498db;
+        }
+
+        .vision {
+            padding: 6rem 2rem 4rem;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .vision h1 {
+            text-align: center;
+            margin-bottom: 3rem;
+            color: #2c3e50;
+        }
+
+        .vision-content {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 2rem;
+        }
+
+        .vision-section {
+            background-color: #f8f9fa;
+            padding: 2rem;
+            border-radius: 10px;
+        }
+
+        .vision-section h2 {
+            color: #2c3e50;
+            border-bottom: 2px solid #3498db;
+            padding-bottom: 0.5rem;
+            margin-bottom: 1rem;
+        }
+
+        .vision-section ul {
+            list-style-type: none;
+            padding-left: 0;
+        }
+
+        .vision-section li {
+            margin-bottom: 0.5rem;
+            padding-left: 1.5rem;
+            position: relative;
+        }
+
+        .vision-section li::before {
+            content: '•';
+            color: #3498db;
+            position: absolute;
+            left: 0;
+        }
+
+        footer {
+            background-color: #2c3e50;
+            color: white;
+            text-align: center;
+            padding: 2rem;
+            margin-top: 2rem;
+        }
+
+        @media (max-width: 900px) {
+            .vision-content {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">Holy Fatima Group of Schools</div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="founder.html">Founder</a></li>
+                <li><a href="vision.html">VISION 2050</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="vision">
+        <h1>Vision 2050: Transforming Education</h1>
+        <div class="vision-content">
+            <div class="vision-section">
+                <h2>Student-Centric Vision</h2>
+                <ul>
+                    <li>Montessori Pre-Primary Section</li>
+                    <li>State-of-the-Art Swimming Pool</li>
+                    <li>Professional Archery Training Facility</li>
+                    <li>Comprehensive Basketball Ground</li>
+                    <li>Well-Developed, Modern Classrooms</li>
+                    <li>Dedicated Religious Texts Learning Class</li>
+                    <li>Advanced Healthcare Facilities</li>
+                    <li>Full-Time Nursing Staff</li>
+                    <li>Daily Structured Games and Physical Activity Hour</li>
+                    <li>Team of Experienced Teachers</li>
+                    <li>Welcoming Environment for Fresh Talents</li>
+                    <li>Diverse Clubs and Extracurricular Programs</li>
+                    <li>Comprehensive Scholarship Opportunities</li>
+                    <li>Professional Student Counseling Room</li>
+                </ul>
+<img src="students.jpg" alt="Student Vision" style="width: 100%; margin-top: 1rem; border-radius: 10px;">
+            </div>
+            <div class="vision-section">
+                <h2>Teacher Empowerment Vision</h2>
+                <ul>
+                    <li>Dedicated Teacher Counseling Room</li>
+                    <li>Comprehensive Health Insurance for Teachers and Families</li>
+                    <li>Continuous Professional Training Programs</li>
+                    <li>Financial Support for Higher Education</li>
+                    <li>Encouragement and Resources for Research Work</li>
+                    <li>Emphasis on Work-Life Balance</li>
+                    <li>On-Campus Fitness Coach</li>
+                    <li>Professional Diet Counseling</li>
+                    <li>Childcare Facilities for Teachers' Toddlers</li>
+                </ul>
+ <img src="teachers.jpeg" alt="Teacher Vision" style="width: 100%; margin-top: 1rem; border-radius: 10px;">
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Holy Fatima Group of Schools. All rights reserved.</p>
+    </footer>
+</body>
+</html>
